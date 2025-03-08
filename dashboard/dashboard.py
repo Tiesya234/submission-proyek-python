@@ -10,7 +10,7 @@ import plotly.express as px
 st.title("Dashboard Analisis Bike Sharing Indonesia 🚴")
 
 # Tentukan path file data
-file_path = dashboard/all_data.csv
+file_path = "dashboard/all_data.csv"
 
 # Load dataset dengan pengecekan error
 def load_data(file_path):
