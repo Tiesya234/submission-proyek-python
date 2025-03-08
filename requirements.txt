@@ -5,3 +5,4 @@ seaborn
 os
 numpy
 plotly.express 
+babel
