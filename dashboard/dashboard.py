@@ -35,7 +35,7 @@ if all_df is not None:
 # Sidebar untuk navigasi
 def sidebar_content():
     st.sidebar.title("🚴Bike Sharing Indonesia 🚴")
-    st.sidebar.image("https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgCN4iLSSXFyeOfz-MllnS2rmz9KEZzJeMkeHnqdNP5pf5VLMK5m_dEhGQ3p4MxquaGLaON473NG6kYCWMu_kFf7ZVufgiNnivIkFIT7s38RAd6Mw3M0Y6VwWqA7YnFmQlxwbI5RIpiGb4f78Cpizupi2X7sSCJOcchD8G_W69KwhuU6nZtg-nJLpIWtA/s1200/sewa%20sepeda%20gbk.png", use_column_width=True)
+    st.sidebar.image("https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgCN4iLSSXFyeOfz-MllnS2rmz9KEZzJeMkeHnqdNP5pf5VLMK5m_dEhGQ3p4MxquaGLaON473NG6kYCWMu_kFf7ZVufgiNnivIkFIT7s38RAd6Mw3M0Y6VwWqA7YnFmQlxwbI5RIpiGb4f78Cpizupi2X7sSCJOcchD8G_W69KwhuU6nZtg-nJLpIWtA/s1200/sewa%20sepeda%20gbk.png", use_container_width=True)
     st.sidebar.markdown("## 📊 Informasi Peminjaman")    
     # Toggle interaktif
     show_summary = st.sidebar.checkbox("📌 Tampilkan Ringkasan Informasi", value=True)
