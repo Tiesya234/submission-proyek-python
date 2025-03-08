@@ -1,8 +1,6 @@
-streamlit
 pandas
-matplotlib.pyplot
-seaborn
-os
 numpy
-plotly.express 
-babel
+streamlit
+matplotlib
+scikit-learn
+seaborn
